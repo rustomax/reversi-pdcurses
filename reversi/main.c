@@ -1,13 +1,3 @@
-// Compile:
-// cd <PDCurses directory>\win32a
-// gcc -O4 -Wall -pedantic -I.. -mwindows -o../reversi/reversi.exe ../reversi/main.c pdcurses.a -lgdi32 -lcomdlg32 -std=c11
-
-// Run:
-// ..\reversi\reversi.exe
-
-//#include <windows.h>
-//#include <string.h>
-//#include <stdlib.h>
 #include <curses.h>
 #include <unistd.h>
 #include <stdbool.h>
