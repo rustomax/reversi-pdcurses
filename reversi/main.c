@@ -396,8 +396,7 @@ void make_computer_move() {
 	}
 }
 
-int main()
-{
+int main() {
 
 	int input;
 	// Initialize the game and display game board and the HUD
