@@ -435,7 +435,7 @@ int main() {
 		attroff(COLOR_PAIR(COMPUTER_TEXT_COLOR));
 	} else if (get_board_score(COMPUTER) < get_board_score(PLAYER)) {
 		attron(COLOR_PAIR(PLAYER_TEXT_COLOR));
-		mvprintw(HUDY + 8, HUDX + 1, "    GAME OVER: PLAYER WON    ");
+		mvprintw(HUDY + 8, HUDX + 1, "     GAME OVER: YOU WON      ");
 		attroff(COLOR_PAIR(PLAYER_TEXT_COLOR));
 	} else {
 		attron(COLOR_PAIR(PLAYER_TEXT_COLOR));
