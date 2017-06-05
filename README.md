@@ -13,7 +13,7 @@ gcc -O4 -Wall -pedantic -I.. -mwindows -o../../reversi/reversi.exe ../../reversi
 ## Notes
 
 - This program uses the Project Pluto's version of PDCurses. The main site is https://www.projectpluto.com/win32a.htm. GitHub repo https://github.com/Bill-Gray/PDCurses
-- This program is designed to run on Windows, but since all IO is done through curses. interface, it should be relatively easy to port to other platforms. If you are in the mood for that feel free to send me a pull request.
+- This program is designed to run on Windows, but since all IO is done through curses, it should be relatively easy to port to other platforms. If you are in the mood for that feel free to send me a pull request.
 - This program is licensed under GPL. PDCurses uses public domain license (see full license in their GitHub repo).
 - This repo is streamlined for MinGW compiler on Windows with a lot of directories in PDCurses distribution removed. If you want to compile with different compilers for other targets, make sure to clone the full PDCurses repo from locations mentioned above.
 
